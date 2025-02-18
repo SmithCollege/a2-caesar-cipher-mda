@@ -4,11 +4,11 @@
 
 Your readme should include the following information. Each student needs to submit all of this information independently, even when pair programming. 
 
-Programming Partner Name:
+Programming Partner Name: N/A
 
-Other Collaborators (and kudos to people who were especially helpful):
+Other Collaborators (and kudos to people who were especially helpful): N/A
 
-References Used:
+References Used: N/A
 
 
 ## Reflection Questions
@@ -18,3 +18,5 @@ What was your favorite part of this assignment?
 What was most challenging about this assignment?
 
 General comments on your experience with this assignment:
+
+It was fun experimenting with encoding/decoding strings: seeing what would happen if I decoded this sentence using this key, etc. It did help me understand Arrays vs ArrayLists better, and I think that actually writing the code for the Caesar Cipher helped me wrap my head around what all of this is actually supposed to be doing. It was difficult, at first, to understand the process of the Caeser Cipher, everything it does to get from the given String to the encoded message, and definitely frustrating when tests weren't passing, but I was able to make it work, and it was very satisfying in the end.
