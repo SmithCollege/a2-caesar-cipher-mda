@@ -41,10 +41,10 @@ public class CaesarCipherTests {
     @Test
     public void decodeTest(){
         CaesarCipher classUnderTest = new CaesarCipher(8);
-        assertEquals("this is a secret message", classUnderTest.decode("lzak ak s kwujwl ewkksyw"));
+        assertEquals("this is a secret message", classUnderTest.decode("lzak ak s kwujwl ewkksyw", 8));
         
         classUnderTest = new CaesarCipher(3);
-        assertEquals("this isn't very secret.", classUnderTest.decode("qefp fpk'q sbov pbzobq."));
+        assertEquals("this isn't very secret.", classUnderTest.decode("qefp fpk'q sbov pbzobq.", 3));
 
     }
 
